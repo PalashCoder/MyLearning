@@ -3,13 +3,17 @@ using namespace std;
 
 void print(int n)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int  j = 1; j <= n; j++)
         {
-            cout << "* ";
+            if(i==1 || j== 1 || i==n || j==n){
+                cout<<"*";
+            }else{
+                cout<<" ";
+            }
         }
-        cout << "\n";
+        cout<<endl;
     }
 }
 int main()
