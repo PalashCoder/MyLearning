@@ -3,3 +3,4 @@ tasks.json
 *.bin
 *.exe
 .cph
+.vs
